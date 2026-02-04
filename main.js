@@ -2,7 +2,7 @@ const mixes = [
   {
     name: 'Mix 1',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/1.png',
-    currentPrice: 280,
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
@@ -25,7 +25,7 @@ const mixes = [
   {
     name: 'Mix 2',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/2.jpg',
-    currentPrice: 150,
+    currentPrice: '150 €',
     sizes: [
       {
         name: 'S',
@@ -48,7 +48,7 @@ const mixes = [
   {
     name: 'Mix 3',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/3.jpg',
-    currentPrice: 170,
+    currentPrice: '170 €',
     sizes: [
       {
         name: 'S',
@@ -71,7 +71,7 @@ const mixes = [
   {
     name: 'Mix 4',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/4.jpg',
-    currentPrice: 190,
+    currentPrice: '190 €',
     sizes: [
       {
         name: 'S',
@@ -94,7 +94,7 @@ const mixes = [
   {
     name: 'Mix 5',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/5.jpg',
-    currentPrice: 160,
+    currentPrice: '160 €',
     sizes: [
       {
         name: 'S',
@@ -111,13 +111,13 @@ const mixes = [
       {
         name: 'XL',
         price: 200,
-      }
+      },
     ],
   },
   {
     name: 'Mix 6',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/6.jpg',
-    currentPrice: 80,
+    currentPrice: '80 €',
     sizes: [
       {
         name: 'S',
@@ -134,13 +134,13 @@ const mixes = [
       {
         name: 'XL',
         price: 130,
-      }
+      },
     ],
   },
   {
     name: 'Mix 7',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/7.jpg',
-    currentPrice: 140,
+    currentPrice: '140 €',
     sizes: [
       {
         name: 'S',
@@ -157,13 +157,13 @@ const mixes = [
       {
         name: 'XL',
         price: 185,
-      }
+      },
     ],
   },
   {
     name: 'Mix 8',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/8.jpg',
-    currentPrice: 260,
+    currentPrice: '260 €',
     sizes: [
       {
         name: 'S',
@@ -186,7 +186,7 @@ const mixes = [
   {
     name: 'Mix 9',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/9.jpg',
-    currentPrice: 180,
+    currentPrice: '180 €',
     sizes: [
       {
         name: 'S',
@@ -209,7 +209,7 @@ const mixes = [
   {
     name: 'Mix 10',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/10.jpg',
-    currentPrice: 100,
+    currentPrice: '100 €',
     sizes: [
       {
         name: 'S',
@@ -226,13 +226,13 @@ const mixes = [
       {
         name: 'XL',
         price: 170,
-      }
+      },
     ],
   },
   {
     name: 'Mix 11',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/11.png',
-    currentPrice: 110,
+    currentPrice: '110 €',
     sizes: [
       {
         name: 'S',
@@ -249,13 +249,13 @@ const mixes = [
       {
         name: 'XL',
         price: 230,
-      }
+      },
     ],
   },
   {
     name: 'Mix 12',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/12.jpg',
-    currentPrice: 120,
+    currentPrice: '120 €',
     sizes: [
       {
         name: 'S',
@@ -272,13 +272,13 @@ const mixes = [
       {
         name: 'XL',
         price: 150,
-      }
+      },
     ],
   },
   {
     name: 'Mix 13',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/13.jpg',
-    currentPrice: 120,
+    currentPrice: '120 €',
     sizes: [
       {
         name: 'S',
@@ -295,13 +295,13 @@ const mixes = [
       {
         name: 'XL',
         price: 150,
-      }
+      },
     ],
   },
   {
     name: 'Mix 14',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/14.png',
-    currentPrice: 130,
+    currentPrice: '130 €',
     sizes: [
       {
         name: 'M',
@@ -318,13 +318,13 @@ const mixes = [
       {
         name: '2XL',
         price: 230,
-      }
+      },
     ],
   },
   {
     name: 'Mix 15',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/15.jpg',
-    currentPrice: 80,
+    currentPrice: '80 €',
     sizes: [
       {
         name: 'S',
@@ -341,7 +341,7 @@ const mixes = [
       {
         name: 'XL',
         price: 120,
-      }
+      },
     ],
   },
 ]
@@ -350,20 +350,46 @@ const boxes = [
   {
     name: 'Box 1',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/1.jpg',
+    currentPrice: '110 €',
     sizes: [
       {
         name: 'S',
-        price: 35,
+        price: 75,
+      },
+      {
+        name: 'M',
+        price: 110,
+      },
+      {
+        name: 'L',
+        price: 160,
+      },
+      {
+        name: 'XL',
+        price: 225,
       },
     ],
   },
   {
     name: 'Box 2',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/2.jpg',
+    currentPrice: '750 €',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: 'M',
+        price: 140,
+      },
+      {
+        name: 'L',
+        price: 265,
+      },
+      {
+        name: 'XL',
+        price: 400,
+      },
+      {
+        name: '2XL',
+        price: 600,
       },
     ],
   },
@@ -371,42 +397,42 @@ const boxes = [
 
 const tulips = [
   {
-    name: 'Tulip 1',
+    name: 'Peony-shaped (min - 27pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/1.jpeg',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1pcs.',
+        price: 1.9,
       },
     ],
   },
   {
-    name: 'Tulip 2',
+    name: 'White (min - 27pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/2.jpg',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1pcs.',
+        price: 1.9,
       },
     ],
   },
   {
-    name: 'Tulip 3',
+    name: 'Red (min - 27pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/3.jpg',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1pcs.',
+        price: 1.9,
       },
     ],
   },
   {
-    name: 'Tulip 4',
+    name: 'Pink (min - 27pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/4.jpg',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1pcs.',
+        price: 1.9,
       },
     ],
   },
@@ -414,42 +440,46 @@ const tulips = [
 
 const mono = [
   {
-    name: 'Mono 1',
+    name: 'Red (minimum - 15 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r1.jpg',
+    currentPrice: '101 pcs.',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1 pcs.',
+        price: 5,
       },
     ],
   },
   {
-    name: 'Mono 2',
+    name: 'White (minimum - 15 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r2.jpg',
+    currentPrice: '101 pcs.',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1 pcs.',
+        price: 4.5,
       },
     ],
   },
   {
-    name: 'Mono 3',
+    name: "O'Hara mix (min-15 pcs.)",
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r3.jpg',
+    currentPrice: '51 pcs.',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1 pcs.',
+        price: 4.5,
       },
     ],
   },
   {
-    name: 'Mono 4',
+    name: 'Rose (minimum - 15 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r4.jpg',
+    currentPrice: '101 pcs.',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '1 pcs.',
+        price: 4.5,
       },
     ],
   },
@@ -466,7 +496,7 @@ function renderBouquets(element, bouquets) {
         .join('')
       const currentPriceBadge =
         bouquet.currentPrice != null
-          ? `<span class="card-current-price">€${bouquet.currentPrice}</span>`
+          ? `<span class="card-current-price">${bouquet.currentPrice}</span>`
           : ''
       return `<article class="card"><div class="card-image-wrap"><img src="${bouquet.image}" alt="${bouquet.name} bouquet" loading="lazy" />${currentPriceBadge}</div><div class="card-body"><h3 class="card-title">${bouquet.name}</h3><div class="sizes">${sizesHtml}</div></div></article>`
     })
@@ -476,5 +506,6 @@ function renderBouquets(element, bouquets) {
 ;(function () {
   renderBouquets(document.getElementById('mixes-grid'), mixes)
   renderBouquets(document.getElementById('boxes-grid'), boxes)
+  renderBouquets(document.getElementById('tulips-grid'), tulips)
   renderBouquets(document.getElementById('mono-grid'), mono)
 })()
