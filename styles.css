@@ -81,10 +81,13 @@ header p {
   }
 
   .card {
-    min-width: 280px;
-    max-width: 280px;
+    width: 85%;
   }
 
+  .sizes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
   .bouquet-grid::-webkit-scrollbar {
     height: 6px;
   }
