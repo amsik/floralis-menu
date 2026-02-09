@@ -465,7 +465,7 @@ const mono = [
     sizes: [
       {
         name: '1 pcs.',
-        price: 5,
+        price: 4.2,
       },
     ],
   },
@@ -476,7 +476,7 @@ const mono = [
     sizes: [
       {
         name: '1 pcs.',
-        price: 4.5,
+        price: 4.2,
       },
     ],
   },
@@ -487,7 +487,7 @@ const mono = [
     sizes: [
       {
         name: '1 pcs.',
-        price: 4.5,
+        price: 4.2,
       },
     ],
   },
@@ -498,7 +498,7 @@ const mono = [
     sizes: [
       {
         name: '1 pcs.',
-        price: 4.5,
+        price: 4.2,
       },
     ],
   },
