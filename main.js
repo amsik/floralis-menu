@@ -348,6 +348,25 @@ const mixes = [
 
 const boxes = [
   {
+    name: 'Macaroons Box',
+    image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/b8.jpeg',
+    currentPrice: '35 €',
+    sizes: [
+      {
+        name: 'S',
+        price: 35,
+      },
+      {
+        name: 'M',
+        price: 45,
+      },
+      {
+        name: 'L',
+        price: 55,
+      },
+    ],
+  },
+  {
     name: 'Box 1',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/1.jpg',
     currentPrice: '110 €',
