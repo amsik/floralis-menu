@@ -506,7 +506,7 @@ const mono = [
 
 const additions = [
   {
-    name: 'Macaroon (minimum - 3 pcs.)',
+    name: 'Macaroon (min - 3 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/additions/1.jpeg',
     sizes: [
       {
