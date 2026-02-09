@@ -504,6 +504,29 @@ const mono = [
   },
 ]
 
+const additions = [
+  {
+    name: 'Macaroon (minimum - 3 pcs.)',
+    image: 'https://storage.googleapis.com/floralis/2026/14-feb/additions/1.jpeg',
+    sizes: [
+      {
+        name: '1 pcs.',
+        price: 3,
+      },
+    ],
+  },
+  {
+    name: 'Handmade sweets',
+    image: 'https://storage.googleapis.com/floralis/2026/14-feb/additions/2.jpeg',
+    sizes: [
+      {
+        name: '8 pcs.',
+        price: 20,
+      },
+    ],
+  },
+]
+
 function renderBouquets(element, bouquets) {
   if (!element) return
   element.innerHTML = bouquets
@@ -527,4 +550,5 @@ function renderBouquets(element, bouquets) {
   renderBouquets(document.getElementById('boxes-grid'), boxes)
   renderBouquets(document.getElementById('tulips-grid'), tulips)
   renderBouquets(document.getElementById('mono-grid'), mono)
+  renderBouquets(document.getElementById('additions-grid'), additions)
 })()
