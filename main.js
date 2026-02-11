@@ -421,7 +421,7 @@ const tulips = [
     sizes: [
       {
         name: '1pcs.',
-        price: 2.3,
+        price: 1.9,
       },
     ],
   },
