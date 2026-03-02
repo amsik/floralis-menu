@@ -2,30 +2,30 @@ const mixes = [
   {
     name: 'Mix 1',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/m/1.jpg',
-    currentPrice: '280 €',
+    currentPrice: '70 €',
     sizes: [
       {
         name: 'S',
-        price: 70,
+        price: 50,
       },
       {
         name: 'M',
-        price: 140,
+        price: 70,
       },
       {
         name: 'L',
-        price: 210,
+        price: 100,
       },
       {
         name: 'XL',
-        price: 280,
+        price: 145,
       },
     ],
   },
   {
     name: 'Mix 2',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/m/2.jpeg',
-    currentPrice: '280 €',
+    currentPrice: '180 €',
     sizes: [
       {
         name: 'S',
@@ -33,22 +33,22 @@ const mixes = [
       },
       {
         name: 'M',
-        price: 140,
+        price: 125,
       },
       {
         name: 'L',
-        price: 210,
+        price: 180,
       },
       {
         name: 'XL',
-        price: 280,
+        price: 240,
       },
     ],
   },
   {
     name: 'Mix 3',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/m/3.jpg',
-    currentPrice: '280 €',
+    currentPrice: '90 €',
     sizes: [
       {
         name: 'S',
@@ -56,61 +56,61 @@ const mixes = [
       },
       {
         name: 'M',
-        price: 140,
+        price: 90,
       },
       {
         name: 'L',
-        price: 210,
+        price: 135,
       },
       {
         name: 'XL',
-        price: 280,
+        price: 175,
       },
     ],
   },
   {
     name: 'Mix 4',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/m/4.jpeg',
-    currentPrice: '280 €',
+    currentPrice: '150 €',
     sizes: [
       {
         name: 'S',
-        price: 70,
+        price: 100,
       },
       {
         name: 'M',
-        price: 140,
+        price: 150,
       },
       {
         name: 'L',
-        price: 210,
+        price: 200,
       },
       {
         name: 'XL',
-        price: 280,
+        price: 236,
       },
     ],
   },
   {
     name: 'Mix 5',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/m/5.jpeg',
-    currentPrice: '280 €',
+    currentPrice: '85 €',
     sizes: [
       {
         name: 'S',
-        price: 70,
+        price: 58,
       },
       {
         name: 'M',
-        price: 140,
+        price: 85,
       },
       {
         name: 'L',
-        price: 210,
+        price: 125,
       },
       {
         name: 'XL',
-        price: 280,
+        price: 165,
       },
     ],
   },
@@ -121,42 +121,19 @@ const mixes = [
     sizes: [
       {
         name: 'S',
-        price: 70,
+        price: 90,
       },
       {
         name: 'M',
-        price: 140,
+        price: 110,
       },
       {
         name: 'L',
-        price: 210,
+        price: 155,
       },
       {
         name: 'XL',
-        price: 280,
-      },
-    ],
-  },
-  {
-    name: 'Mix 7',
-    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/7.jpeg',
-    currentPrice: '280 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 70,
-      },
-      {
-        name: 'M',
-        price: 140,
-      },
-      {
-        name: 'L',
-        price: 210,
-      },
-      {
-        name: 'XL',
-        price: 280,
+        price: 195,
       },
     ],
   },
@@ -325,6 +302,18 @@ const mono = [
     ],
   },
   */
+
+  {
+    name: 'Royal Blush',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/7.jpeg',
+    currentPrice: '23 pcs.',
+    sizes: [
+      {
+        name: '1 pcs.',
+        price: 5.5,
+      },
+    ],
+  },
   {
     name: 'Hydrangea (min - 7 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/1.jpg',
