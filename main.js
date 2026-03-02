@@ -324,6 +324,18 @@ const mono = [
       },
     ],
   },
+
+  {
+    name: "Silva Pink (min-11 pcs.)",
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/2.jpg',
+    currentPrice: '13 pcs.',
+    sizes: [
+      {
+        name: '1 pcs.',
+        price: 5.5,
+      },
+    ],
+  },
   {
     name: "O'Hara mix (min-15 pcs.)",
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r3.jpg',
