@@ -117,7 +117,7 @@ const mixes = [
   {
     name: 'Mix 6 (+ mini)',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/m/6.jpg',
-    currentPrice: '280 €',
+    currentPrice: '90 €',
     sizes: [
       {
         name: 'S',
