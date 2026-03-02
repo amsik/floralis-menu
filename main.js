@@ -1,7 +1,7 @@
 const mixes = [
   {
     name: 'Mix 1',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/1.png',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/1.jpg',
     currentPrice: '280 €',
     sizes: [
       {
@@ -24,58 +24,58 @@ const mixes = [
   },
   {
     name: 'Mix 2',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/2.jpg',
-    currentPrice: '150 €',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/2.jpeg',
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
-        price: 100,
+        price: 70,
       },
       {
         name: 'M',
-        price: 150,
+        price: 140,
       },
       {
         name: 'L',
-        price: 200,
+        price: 210,
       },
       {
         name: 'XL',
-        price: 250,
+        price: 280,
       },
     ],
   },
   {
     name: 'Mix 3',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/3.jpg',
-    currentPrice: '170 €',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/3.jpg',
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
-        price: 80,
+        price: 70,
       },
       {
         name: 'M',
-        price: 130,
+        price: 140,
       },
       {
         name: 'L',
-        price: 170,
+        price: 210,
       },
       {
         name: 'XL',
-        price: 230,
+        price: 280,
       },
     ],
   },
   {
     name: 'Mix 4',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/4.jpg',
-    currentPrice: '190 €',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/4.jpeg',
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
-        price: 100,
+        price: 70,
       },
       {
         name: 'M',
@@ -83,91 +83,68 @@ const mixes = [
       },
       {
         name: 'L',
-        price: 190,
+        price: 210,
       },
       {
         name: 'XL',
-        price: 240,
+        price: 280,
       },
     ],
   },
   {
     name: 'Mix 5',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/5.jpg',
-    currentPrice: '160 €',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/5.jpeg',
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
-        price: 80,
+        price: 70,
       },
       {
         name: 'M',
-        price: 120,
+        price: 140,
       },
       {
         name: 'L',
-        price: 160,
+        price: 210,
       },
       {
         name: 'XL',
-        price: 200,
+        price: 280,
       },
     ],
   },
   {
-    name: 'Mix 6',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/6.jpg',
-    currentPrice: '80 €',
+    name: 'Mix 6 (+ mini)',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/6.jpg',
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
-        price: 55,
+        price: 70,
       },
       {
         name: 'M',
-        price: 80,
+        price: 140,
       },
       {
         name: 'L',
-        price: 105,
+        price: 210,
       },
       {
         name: 'XL',
-        price: 130,
+        price: 280,
       },
     ],
   },
   {
     name: 'Mix 7',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/7.jpg',
-    currentPrice: '140 €',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/m/7.jpeg',
+    currentPrice: '280 €',
     sizes: [
       {
         name: 'S',
-        price: 50,
-      },
-      {
-        name: 'M',
-        price: 95,
-      },
-      {
-        name: 'L',
-        price: 140,
-      },
-      {
-        name: 'XL',
-        price: 185,
-      },
-    ],
-  },
-  {
-    name: 'Mix 8',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/8.jpg',
-    currentPrice: '260 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 80,
+        price: 70,
       },
       {
         name: 'M',
@@ -175,172 +152,11 @@ const mixes = [
       },
       {
         name: 'L',
-        price: 200,
+        price: 210,
       },
       {
         name: 'XL',
-        price: 260,
-      },
-    ],
-  },
-  {
-    name: 'Mix 9',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/9.jpg',
-    currentPrice: '180 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 80,
-      },
-      {
-        name: 'M',
-        price: 130,
-      },
-      {
-        name: 'L',
-        price: 180,
-      },
-      {
-        name: 'XL',
-        price: 230,
-      },
-    ],
-  },
-  {
-    name: 'Mix 10',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/10.jpg',
-    currentPrice: '100 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 65,
-      },
-      {
-        name: 'M',
-        price: 100,
-      },
-      {
-        name: 'L',
-        price: 135,
-      },
-      {
-        name: 'XL',
-        price: 170,
-      },
-    ],
-  },
-  {
-    name: 'Mix 11',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/11.png',
-    currentPrice: '110 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 60,
-      },
-      {
-        name: 'M',
-        price: 110,
-      },
-      {
-        name: 'L',
-        price: 170,
-      },
-      {
-        name: 'XL',
-        price: 230,
-      },
-    ],
-  },
-  {
-    name: 'Mix 12',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/12.jpg',
-    currentPrice: '120 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 60,
-      },
-      {
-        name: 'M',
-        price: 90,
-      },
-      {
-        name: 'L',
-        price: 120,
-      },
-      {
-        name: 'XL',
-        price: 150,
-      },
-    ],
-  },
-  {
-    name: 'Mix 13',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/13.jpg',
-    currentPrice: '120 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 50,
-      },
-      {
-        name: 'M',
-        price: 85,
-      },
-      {
-        name: 'L',
-        price: 120,
-      },
-      {
-        name: 'XL',
-        price: 150,
-      },
-    ],
-  },
-  {
-    name: 'Mix 14',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/14.png',
-    currentPrice: '130 €',
-    sizes: [
-      {
-        name: 'M',
-        price: 90,
-      },
-      {
-        name: 'L',
-        price: 130,
-      },
-      {
-        name: 'XL',
-        price: 180,
-      },
-      {
-        name: '2XL',
-        price: 230,
-      },
-    ],
-  },
-  {
-    name: 'Mix 15',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/mix/15.jpg',
-    currentPrice: '80 €',
-    sizes: [
-      {
-        name: 'S',
-        price: 60,
-      },
-      {
-        name: 'M',
-        price: 80,
-      },
-      {
-        name: 'L',
-        price: 100,
-      },
-      {
-        name: 'XL',
-        price: 120,
+        price: 280,
       },
     ],
   },
@@ -348,26 +164,53 @@ const mixes = [
 
 const boxes = [
   {
-    name: 'Macaroons Box',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/b8.jpeg',
-    currentPrice: '35 €',
+    name: 'Box 1',
+    image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/t5.jpg',
+    currentPrice: '101 tulips',
     sizes: [
       {
-        name: 'S',
-        price: 35,
+        name: '51 pcs.',
+        price: 112,
       },
       {
-        name: 'M',
-        price: 45,
+        name: '101 pcs.',
+        price: 222,
       },
       {
-        name: 'L',
-        price: 55,
+        name: '151 pcs.',
+        price: 332,
+      },
+      {
+        name: '201 pcs.',
+        price: 462,
       },
     ],
   },
   {
-    name: 'Box 1',
+    name: 'Box 2',
+    image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/b4.jpg',
+    currentPrice: '440 €',
+    sizes: [
+      {
+        name: 'S',
+        price: 160,
+      },
+      {
+        name: 'M',
+        price: 220,
+      },
+      {
+        name: 'L',
+        price: 380,
+      },
+      {
+        name: 'XL',
+        price: 440,
+      },
+    ],
+  },
+  {
+    name: 'Box 3',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/1.jpg',
     currentPrice: '110 €',
     sizes: [
@@ -390,7 +233,7 @@ const boxes = [
     ],
   },
   {
-    name: 'Box 2',
+    name: 'Box 4',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/box/2.jpg',
     currentPrice: '750 €',
     sizes: [
@@ -416,48 +259,49 @@ const boxes = [
 
 const tulips = [
   {
-    name: 'Peony-shaped (min - 27pcs.)',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/1.jpeg',
-    sizes: [
-      {
-        name: '1pcs.',
-        price: 1.9,
-      },
-    ],
+    name: 'Color #1',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_1.jpeg',
+    sizes: [],
   },
   {
-    name: 'White (min - 27pcs.)',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/2.jpg',
-    sizes: [
-      {
-        name: '1pcs.',
-        price: 1.9,
-      },
-    ],
+    name: 'Color #2',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_2.jpeg',
+    sizes: [],
   },
   {
-    name: 'Red (min - 27pcs.)',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/3.jpg',
-    sizes: [
-      {
-        name: '1pcs.',
-        price: 1.9,
-      },
-    ],
+    name: 'Color #3',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_3.jpeg',
+    sizes: [],
   },
   {
-    name: 'Pink (min - 27pcs.)',
-    image: 'https://storage.googleapis.com/floralis/2026/14-feb/tulip/4.jpg',
-    sizes: [
-      {
-        name: '1pcs.',
-        price: 1.9,
-      },
-    ],
+    name: 'Color #4',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_4.jpeg',
+    sizes: [],
+  },
+  {
+    name: 'Color #5',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_5.jpeg',
+    sizes: [],
+  },
+  {
+    name: 'Color #6',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_6.jpeg',
+    sizes: [],
+  },
+  {
+    name: 'Color #7',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_7.jpeg',
+    sizes: [],
+  },
+  {
+    name: 'Color #8',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_8.jpeg',
+    sizes: [],
   },
 ]
 
 const mono = [
+  /*
   {
     name: 'Red (minimum - 15 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r1.jpg',
@@ -480,6 +324,18 @@ const mono = [
       },
     ],
   },
+  */
+  {
+    name: 'Hydrangea (min - 7 pcs.)',
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/1.jpg',
+    currentPrice: '35 pcs.',
+    sizes: [
+      {
+        name: '1 pcs.',
+        price: 8,
+      },
+    ],
+  },
   {
     name: "O'Hara mix (min-15 pcs.)",
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r3.jpg',
@@ -491,6 +347,7 @@ const mono = [
       },
     ],
   },
+  /*
   {
     name: 'Rose (minimum - 15 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r4.jpg',
@@ -502,6 +359,7 @@ const mono = [
       },
     ],
   },
+  */
 ]
 
 const additions = [
