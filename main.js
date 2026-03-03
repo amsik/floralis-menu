@@ -301,7 +301,7 @@ const mono = [
       },
     ],
   },
-  */
+  
 
   {
     name: 'Royal Blush',
@@ -314,6 +314,7 @@ const mono = [
       },
     ],
   },
+  */
   {
     name: 'Hydrangea (min - 7 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/1.jpg',
