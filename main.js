@@ -315,18 +315,6 @@ const mono = [
     ],
   },
   */
-  
-  {
-    name: "Silva Pink (min-11 pcs.)",
-    image: 'https://storage.googleapis.com/floralis/2026/8-march/2.jpg',
-    currentPrice: '13 pcs.',
-    sizes: [
-      {
-        name: '1 pcs.',
-        price: 5.5,
-      },
-    ],
-  },
   {
     name: 'Hydrangea (min - 7 pcs.)',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/1.jpg',
@@ -338,6 +326,17 @@ const mono = [
     ],
   },
 
+  {
+    name: "Silva Pink (min-11 pcs.)",
+    image: 'https://storage.googleapis.com/floralis/2026/8-march/2.jpg',
+    currentPrice: '13 pcs.',
+    sizes: [
+      {
+        name: '1 pcs.',
+        price: 5.5,
+      },
+    ],
+  },
   {
     name: "O'Hara mix (min-15 pcs.)",
     image: 'https://storage.googleapis.com/floralis/2026/14-feb/mono/r3.jpg',
@@ -389,10 +388,32 @@ const additions = [
 
 function renderBouquets(element, bouquets, randomize) {
   if (!element) return
-  var list = randomize
-    ? bouquets.slice().sort(function () { return Math.random() - 0.5 })
-    : bouquets
-  element.innerHTML = list
+
+  var list = bouquets.slice()
+
+  var available = []
+  var sold = []
+
+  list.forEach(function (bouquet) {
+    if (bouquet.isSold) {
+      sold.push(bouquet)
+    } else {
+      available.push(bouquet)
+    }
+  })
+
+  if (randomize) {
+    available.sort(function () {
+      return Math.random() - 0.5
+    })
+    sold.sort(function () {
+      return Math.random() - 0.5
+    })
+  }
+
+  var orderedList = available.concat(sold)
+
+  element.innerHTML = orderedList
     .map(function (bouquet) {
       const sizesHtml = bouquet.sizes
         .map(function (s) {
@@ -403,7 +424,11 @@ function renderBouquets(element, bouquets, randomize) {
         bouquet.currentPrice != null
           ? `<span class="card-current-price">${bouquet.currentPrice}</span>`
           : ''
-      return `<article class="card"><div class="card-image-wrap"><img src="${bouquet.image}" alt="${bouquet.name} bouquet" loading="lazy" />${currentPriceBadge}</div><div class="card-body"><h3 class="card-title">${bouquet.name}</h3><div class="sizes">${sizesHtml}</div></div></article>`
+      const soldOutBadge = bouquet.isSold
+        ? '<span class="card-sold-out">Sold&nbsp;Out</span>'
+        : ''
+      const cardClasses = bouquet.isSold ? 'card card--sold-out' : 'card'
+      return `<article class="${cardClasses}"><div class="card-image-wrap"><img src="${bouquet.image}" alt="${bouquet.name} bouquet" loading="lazy" />${soldOutBadge}${currentPriceBadge}</div><div class="card-body"><h3 class="card-title">${bouquet.name}</h3><div class="sizes">${sizesHtml}</div></div></article>`
     })
     .join('')
 }
