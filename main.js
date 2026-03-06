@@ -386,9 +386,12 @@ const additions = [
   },
 ]
 
-function renderBouquets(element, bouquets) {
+function renderBouquets(element, bouquets, randomize) {
   if (!element) return
-  element.innerHTML = bouquets
+  var list = randomize
+    ? bouquets.slice().sort(function () { return Math.random() - 0.5 })
+    : bouquets
+  element.innerHTML = list
     .map(function (bouquet) {
       const sizesHtml = bouquet.sizes
         .map(function (s) {
@@ -407,7 +410,7 @@ function renderBouquets(element, bouquets) {
 ;(function () {
   renderBouquets(document.getElementById('mixes-grid'), mixes)
   renderBouquets(document.getElementById('boxes-grid'), boxes)
-  renderBouquets(document.getElementById('tulips-grid'), tulips)
+  renderBouquets(document.getElementById('tulips-grid'), tulips, true)
   renderBouquets(document.getElementById('mono-grid'), mono)
   renderBouquets(document.getElementById('additions-grid'), additions)
 })()
