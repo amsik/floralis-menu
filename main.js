@@ -249,11 +249,13 @@ const tulips = [
     name: 'Color #3',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_3.jpeg',
     sizes: [],
+    isSold: true,
   },
   {
     name: 'Color #4',
     image: 'https://storage.googleapis.com/floralis/2026/8-march/t/T_4.jpeg',
     sizes: [],
+    isSold: true,
   },
   {
     name: 'Color #5',
